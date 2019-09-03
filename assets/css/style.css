@@ -228,20 +228,17 @@ body {
       padding-bottom: 0px;
       margin-left: 30px;
       margin-top: 30px;
-  }
+       }
   
-    }
     #masthead {
       padding-right: 40px;
     }
     #logo {
       margin-left: 40px;
-  }
-  
-  
     }
 
-  }
+    }
+  
   @media screen and (max-width:768px) {
     .main-section{
       width: auto;
@@ -266,7 +263,8 @@ body {
     #logo {
       text-align: center;
       width: 100%;
-      padding-right: 0%
+      padding-right: 0%;
+      
     }
     nav {
       float: none;
@@ -284,7 +282,9 @@ body {
     nav a {
       margin-top: 20px;
       margin-bottom: 20px;
+
     }
+
 }
 
 /* @media portfolio*/
@@ -296,7 +296,7 @@ body {
 
 @media screen and (max-width:768px) {
 #logo {
-  margin-left: 30px;
+  margin-left: 0px;
 }
 }
 
@@ -320,7 +320,8 @@ body {
 
 @media screen and (max-width:768px) {
   .main-section{
-    width:  95%;
+    width:  100%;
+    margin:0;
   }
 }
 
