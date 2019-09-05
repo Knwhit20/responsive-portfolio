@@ -44,12 +44,13 @@ body {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 3px;
+    border: 1px solid #dddddd;
   }
   
   h2,
   h3 {
-    font-size: 22px;
+    font-size:22px;
   }
   
   /* header */
