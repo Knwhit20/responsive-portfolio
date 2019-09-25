@@ -6,12 +6,13 @@
   <title>Contact | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" contents="width-device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <header id="masthead">
-    <div class="container">
+    <div class="container">a
       <a href="index.html" id="logo">Kristen Stroup</a>
       <nav>
         <a href="index.html">About</a>
@@ -24,25 +25,54 @@
   <div id="main-container" class="container">
     <section class="main-section">
 
-      <h1>Contact</h1>
+      <h1>Contact Info</h1>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div id="contactInfo" class="card-body">
+              Kristen Stroup<br>
+              kristenwhitson@gmail.com<br>
+              512-773-3396
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="contact-card" style="width: 18rem;">
+            <img src="assets/images/github.png" class="card-img-top" alt="github-logo">
+            <div class="card-body">
+              <a href="https://github.com/Knwhit20">
+              <h5 class="card-title">Check out my Github Portfolio</h5>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-2">
+          <div class="contact-card" style="width: 18rem;">
+            <img src="assets/images/linkedin.png" id="link" class="card-img-top" alt="linkedin-logo">
+            <div class="card-body">
+              <a href="www.linkedin.com/in/kristen-stroup-15b86418a">
+              <h5 class="card-title">Check out my Linkedin Profile</h5>
+               </a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-2">
+          <div class="contact-card" style="width: 18rem;">
+            <img src="assets/images/resumelogo.png" id="resume" class="card-img-top" alt="resume-link">
+            <div class="card-body">
+              <a href="#">
+              <h5 class="card-title">Check out my Resume</h5>
+              </a>
+            </div>
+          </div>
+        </div>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+      </div>
 
     </section>
   </div>
