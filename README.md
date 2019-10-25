@@ -1,5 +1,10 @@
 # responsive-portfolio
 
+Deployed at: https://knwhit20.github.io/responsive-portfolio/
+
+
+## Instructions
+
 . Copy the contents of `Basic-Portfolio` (your first homework solution) and paste the mentioned files into `Responsive-Portfolio`.
 
 2. Note: Be sure not to include any dot files (e.g. .git, .gitignore) from the `Basic-Portfolio` repo.
